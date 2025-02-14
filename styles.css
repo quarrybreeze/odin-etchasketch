@@ -1,5 +1,15 @@
-#screen {
+#pixelBox {
     display: flex;
     flex-wrap: wrap;
-    width: 160px; /* each box is 10 by 10 px, so set # of boxes * 10
+    flex: auto;
+    width: 500px;
+    height: 500px; /* Ensure the container has a fixed height */
 }
+
+#pixelBox div {
+    /* Remove the fixed flex value */
+    box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+    border: thin solid black;
+    background-color: lightgray;
+}
+
