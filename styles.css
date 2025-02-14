@@ -1,0 +1,5 @@
+#screen {
+    display: flex;
+    flex-wrap: wrap;
+    width: 160px; /* each box is 10 by 10 px, so set # of boxes * 10
+}
